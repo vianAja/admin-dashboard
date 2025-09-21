@@ -22,7 +22,7 @@ jobs:
       # Build Docker image
       - name: Build Docker image
         run: |
-          docker build -t /web-app:latest .
+          docker build -t web-app:latest .
 
       # Jalankan container (opsional, bisa untuk test)
       - name: Run container
